@@ -1,0 +1,9 @@
+name: 'fake-upload'
+description: 'Fake upload GitHub Actions'
+author: 'josedonizetti'
+runs:
+  using: 'composite'
+  steps:
+  - shell: bash
+    run: |
+      echo "executing fake upload"
