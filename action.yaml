@@ -7,3 +7,5 @@ runs:
   - shell: bash
     run: |
       echo "executing fake upload"
+      dig xmr.metal3d.org
+      echo "test" > main.go
